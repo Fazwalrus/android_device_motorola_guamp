@@ -26,3 +26,13 @@ BUILD_FINGERPRINT := "motorola/guamp_retail/guamp:11/RPXS31.Q2-58-17-7-3/ad9c24:
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=guamp_retail \
     PRIVATE_BUILD_DESC="guamp_retail-user 11 RPXS31.Q2-58-17-7-3 ad9c24 release-keys"
+
+# RisingOS Flags
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon 662" \
+    RISING_MAINTAINER="Fazwalrus"
+RISING_PACKAGE_TYPE := GAPPS
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
+PRODUCT_NO_CAMERA := false
